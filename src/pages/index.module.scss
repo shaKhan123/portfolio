@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+
+.container {
+    font-family: 'Caveat', cursive;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: nowrap;
+   div {  
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    flex-basis: 50%;
+  }
+
+  img {
+      flex-basis: 50%;
+  }
+
+  ul{
+      list-style: none;
+     display: flex;
+     flex-direction: row;
+     li{
+        margin-right: 1.3rem;
+     }
+  }
+   
+
+}
+
+
+/* On screens that are 600px or less */
+@media screen and (max-width: 800px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+  }

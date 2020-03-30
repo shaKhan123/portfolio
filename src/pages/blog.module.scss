@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi+2|Comic+Neue&display=swap');
+
+.posts {
+    list-style-type: none;
+    margin: 0;
+}
+
+.post{
+    margin: 1rem 0;
+
+    a{
+        background: rgb(249, 249, 250);
+        color: black;
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+    }
+
+    a:hover{
+        background: rgb(231, 231, 236);
+    }
+
+    h2{
+        margin-bottom: 1em;
+        font-family: 'Baloo Thambi 2', cursive;
+    }
+
+    p{
+        color: #777777;
+        font-size: .8rem;
+        font-style: italic;
+    }
+}

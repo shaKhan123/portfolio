@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+
+.label {
+  font-family: "Caveat", cursive;
+  font-size: 1.2rem;
+}
+
+.rcorners2 {
+  border-radius: 5px;
+  border: 1px solid #008CBA;
+  margin-bottom: 1em;
+  width: 60%;
+  padding: 0.4em;
+}
+
+.rcorners3 {
+  border-radius: 5px;
+  border: 1px solid #008CBA;
+  margin-bottom: 1em;
+  width: 60%;
+  height: 200Px;
+}
+
+.button {
+    background-color: white; 
+    color: black; 
+    border: 1px solid #008CBA;
+    padding: 10px 30px;
+    font-family: "Caveat", cursive;
+  }
+
+  .button:hover {
+    background-color: #008CBA;
+  color: white;
+  }
+
+/* On screens that are 600px or less*/
+@media screen and (max-width: 800px) {
+  .rcorners2 {
+    width: 100%;
+  }
+
+  .rcorners3 {
+    width: 100%;
+  }
+}
