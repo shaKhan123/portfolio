@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Shagufta Khan`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Here I begin my writing journey with this 90's looking hand made website`,
     author: `sha`,
   },
   plugins: [
@@ -60,7 +60,6 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sass`
