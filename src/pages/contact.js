@@ -5,9 +5,9 @@ import MyForm from "../components/myForm"
 import contactStyles from "./contact.module.scss"
 
 const ContactPage = () => (
-  <Layout>
+
     <MyForm/>   
-  </Layout>
+  
 )
 
 export default ContactPage

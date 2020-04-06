@@ -5,6 +5,13 @@ module.exports = {
     author: `sha`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`./src/components/layout.js`),
+      },
+    },
+    
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,

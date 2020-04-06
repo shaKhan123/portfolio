@@ -3,9 +3,10 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import headerStyles from "./index.module.scss"
+import { TransitionProvider, TransitionViews } from "gatsby-plugin-transitions";
 
 const IndexPage = () => (
-  <Layout>
+
     <div className={headerStyles.container}>
       <div>
         <h1>Hi I'm Shagufta</h1>
@@ -26,7 +27,7 @@ const IndexPage = () => (
         <img src={require("../images/star.jpg")} />
       </div>
     </div>
-  </Layout>
+
 )
 
 export default IndexPage

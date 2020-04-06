@@ -5,14 +5,20 @@ import Footer from "./footer"
 
 import "../styles/index.scss"
 import layoutStyles from "./layout.module.scss"
+import { TransitionProvider, TransitionViews } from "gatsby-plugin-transitions";
 
-const Layout = props => (
+const Layout = ({ location, children })  => (
   <div className={layoutStyles.container}>
     <div className={layoutStyles.content}>
       <Header />
-      {props.children}
+      <TransitionProvider location={location}>
+      <TransitionViews>
+        {children}
+      </TransitionViews>
+    </TransitionProvider>
     </div>
     <Footer />
+
   </div>
 )
 
